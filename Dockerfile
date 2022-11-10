@@ -6,9 +6,9 @@ ADD . /parse
 WORKDIR /parse
 RUN npm install
 
-ENV APP_ID setYourAppId
-ENV MASTER_KEY setYourMasterKey
-ENV DATABASE_URI setMongoDBURI
+ENV APP_ID 'darwin_dating'
+ENV MASTER_KEY '7nYALVIno6'
+ENV DATABASE_URI 'mongodb+srv://private-db-mongodb-parse-405bda38.mongo.ondigitalocean.com'
 
 # Optional (default : 'parse/cloud/main.js')
 # ENV CLOUD_CODE_MAIN cloudCodePath
